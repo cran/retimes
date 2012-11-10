@@ -1,0 +1,3 @@
+export(dexgauss,mexgauss,rexgauss,timefit,histestim,distestim,kernestim,skew)
+exportClasses(timefit)
+exportMethods(show,plot,logLik,AIC,BIC)

@@ -1,0 +1,15 @@
+======== Release 0.1
+* 0.1-0: The package is optimized for the ex-Gaussian distribution only. The histogram density
+  estimator is refined, and both the distance density estimator and the gaussian kernel estimator
+  are implemented. The gaussian kernel is used to find the peak of each parameter distribution
+  using the bootstrap. Implementation of the procedure for the rejection of bootstrapped sigma
+  values outside the theoretical interval. Upgrade of the licence: from the GPLv2 to the GPLv3.
+
+======== Release 0.0
+* From 0.0-2 to 0.0-5: The package is renamed 'retimes'. The bootstrap is reactivated and different
+  implementations of the function 'timefit' are tested.
+* 0.0-1: Reorganization of the package: the bootstrap is frozen, the function 'fdp' is renamed
+  'timefit', and it is implemented only for the ex-Gaussian and Gamma distributions. Implementation
+  in C code of the function 'starting_values' to find start parameters by the shape of distribution.
+* 0.0-0: First experimental implementation of the package, including the Beta, Beta-prime, Gamma
+  and Weibull distributions.

@@ -11,13 +11,13 @@
 generation for the ex-Gaussian distribution.}
 
 \usage{
-dexgauss(x, mu = 0, sigma = 1, tau = 1)
+dexgauss(q, mu = 0, sigma = 1, tau = 1)
 mexgauss(x, n = length(x))
 rexgauss(n, mu = 0, sigma = 1, tau = 1, positive = TRUE)
 }
 
 \arguments{
-    \item{x}{Vector of quantiles.}
+    \item{x,q}{Vector of reaction times.}
     \item{n}{Number of observations.}
     \item{mu,sigma,tau}{Parameters of the ex-Gaussian distribution.}
     \item{positive}{Logical: imposes the generation of a vector containing only positive values.}

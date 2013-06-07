@@ -3,8 +3,8 @@
 # ---------------------------------------------
 
 # Density:
-dexgauss <- function(x, mu=0, sigma=1, tau=1) {
-    D <- (1/tau) * exp(mu/tau+(sigma^2)/(2*tau^2)-x/tau) * pnorm(x,mu+(1/tau)*sigma^2,sigma)
+dexgauss <- function(q, mu=0, sigma=1, tau=1) {
+    D <- (1/tau) * exp(mu/tau+(sigma^2)/(2*tau^2)-q/tau) * pnorm(q,mu+(1/tau)*sigma^2,sigma)
     return(D)
 }
 

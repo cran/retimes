@@ -1,4 +1,5 @@
 ======== Release 0.1
+* 0.1-2: Slight revision of the documentation of density estimation methods.
 * 0.1-1: Help pages refined. Correction of the print procedures for startup message.
 * 0.1-0: The package is optimized for the ex-Gaussian distribution only. The histogram density
   estimator is refined, and both the distance density estimator and the gaussian kernel estimator

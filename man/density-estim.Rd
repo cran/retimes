@@ -28,10 +28,10 @@ distestim(x, smoothing = NULL)
 
 \details{
 The functions \code{kernestim} and \code{histestim} implement two well-known methods to estimate
-the density of an empirical disribution (see Van Zandt, 2000, for their application in RT analysis).
-The functions can be used to find the value corresponding to the peak of a empirical distribution.
+the density of an empirical distribution (see Van Zandt, 2000, for their application in RT analysis).
+The functions can be used to find the value corresponding to the peak of an empirical distribution.
 
-The function \code{kernestim} cernter a Gaussian density over each observation and identifies
+The function \code{kernestim} center a Gaussian density over each observation and identifies
 the value with the greater density.
 
 The function \code{histestim} divides the data in bins, starting from the lower to the higher value
@@ -39,7 +39,7 @@ of data. The function searches the bin with the higher data frequency. The peak 
 is identified calculating the mean of the data into the bin.
 
 The function \code{distestim} is an experimental method which mixes the two previous techniques.
-Around each data point (pivot), an interval \eqn{[x_{i}-h/2, x_{i}+h/2]} is builded, where \eqn{h}
+Around each data point (pivot), an interval \eqn{[x_{i}-h/2, x_{i}+h/2]} is built, where \eqn{h}
 is the smoothing parameter. The function searches the interval (bin) with the higher data frequency.
 The output value is the weighted average of the values into the selected bin, in which each
 observation is weighted on the basis of the distance from the pivot. If bins with equal densities
@@ -47,7 +47,7 @@ are found, the bin presenting the smallest deviance from the pivot is chosen.
 
 For the Gaussian kernel estimator, the smoothing parameter is calculated using the Silverman's
 method (Silverman, 1986). Differently, using histogram and distance estimators, the smoothing
-paramete is calculated as: \eqn{(Q_{0.975}-Q_{0.025}) / \sqrt{n}}, where \eqn{Q_{p}} are the
+parameter is calculated as: \eqn{(Q_{0.975}-Q_{0.025}) / \sqrt{n}}, where \eqn{Q_{p}} are the
 quantiles for \eqn{\alpha = 0.05} and \eqn{n} is the sample dimension.
 }
 

@@ -1,12 +1,12 @@
 d32239bcb673463ab874e80d47fae504 *COPYING
-56319cd3a12218c22d2ebd23ccad9423 *ChangeLog
-32852a3a12e1712676a1e18b7e17c012 *DESCRIPTION
+36aeeb43a144dce194be6381c8a51018 *ChangeLog
+42a20a8781fdf6eb6454372983eaaad8 *DESCRIPTION
 865121710f918238d475675a92e644af *NAMESPACE
 a84145010f6951863ea2a139bd5e6a65 *R/classes.methods.R
 b08ac61165ddfb6fe5a5b4ee6d9c1ddf *R/distributions.R
 a4082b9805361bcc848b10932ffe24f6 *R/retimes.R
 1aff96dd61aed359804b0d471035144e *R/timefit.R
-3c0e05875a9eff170adae733bc17c37f *man/density-estim.Rd
+099f4b29f639fb65024e64aa4174741c *man/density-estim.Rd
 e1da732e2f246165bd25664279b9597f *man/ex-gaussian.Rd
 163691310a6cbad83e1aed6feb1aadd0 *man/skew.Rd
 aa11bc89ec6ddd5a770af0bc9734ede2 *man/timefit.Rd
